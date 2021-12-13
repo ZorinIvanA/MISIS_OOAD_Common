@@ -5,3 +5,6 @@ We need to imitate those buisness processes:
 1. Loading the machine with foods;
 2. Buying with card;
 3. Buiying with cash;
+
+Backlog
+4. Restricted capacity of the machine for any kind of foods
