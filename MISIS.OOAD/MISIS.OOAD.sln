@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30309.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISIS.OOAD.COMMON", "MISIS.OOAD.COMMON\MISIS.OOAD.COMMON.csproj", "{388075A0-77D1-4018-87CE-5BC46F74F8C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{8F8BAA68-ADF8-448A-96D7-6B38F75BB5AA}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MISIS.OOAD.UnitTests", "MISIS.OOAD.UnitTests\MISIS.OOAD.UnitTests.csproj", "{235C18FF-9F02-44AF-8ADA-35639E7634C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{388075A0-77D1-4018-87CE-5BC46F74F8C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{388075A0-77D1-4018-87CE-5BC46F74F8C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{388075A0-77D1-4018-87CE-5BC46F74F8C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{388075A0-77D1-4018-87CE-5BC46F74F8C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{235C18FF-9F02-44AF-8ADA-35639E7634C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235C18FF-9F02-44AF-8ADA-35639E7634C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235C18FF-9F02-44AF-8ADA-35639E7634C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235C18FF-9F02-44AF-8ADA-35639E7634C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A40B7BEA-B884-4792-848B-B1659AE29385}
+	EndGlobalSection
+EndGlobal
