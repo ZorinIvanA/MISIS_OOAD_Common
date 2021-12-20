@@ -43,7 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Food.cs" />
+    <Compile Include="Banknotes.cs" />
+    <Compile Include="Factories\CommonFoodFactory.cs" />
+    <Compile Include="Factories\FoodFactoryBase.cs" />
+    <Compile Include="Foods\FoodBase.cs" />
+    <Compile Include="Foods\Cola.cs" />
+    <Compile Include="Foods\HalalSandwich.cs" />
+    <Compile Include="Foods\Meats.cs" />
+    <Compile Include="Foods\CommonSandwich.cs" />
+    <Compile Include="Foods\SandwichBase.cs" />
     <Compile Include="Machine.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

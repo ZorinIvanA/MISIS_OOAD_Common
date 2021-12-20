@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MISIS.OOAD.COMMON;
+using MISIS.OOAD.COMMON.Foods;
 
 namespace MISIS.OOAD.UnitTests
 {
@@ -12,15 +13,15 @@ namespace MISIS.OOAD.UnitTests
         public void LoadFoods_Success()
         {
             //Arrange
-            TestFood instance = new TestFood();
+            TestFood instance = new TestFood(0, "123");
             Machine machine = new Machine();
 
             //Act
             machine.Load(instance);
 
             //Assert
-            Assert.IsInstanceOfType(machine.Foods, typeof(List<Food>));
-            var instances = machine.Foods as List<Food>;
+            Assert.IsInstanceOfType(machine.Foods, typeof(List<FoodBase>));
+            var instances = machine.Foods as List<FoodBase>;
             Assert.AreEqual(1, instances.Count);
         }
 
@@ -41,7 +42,7 @@ namespace MISIS.OOAD.UnitTests
             //Arrange
             TestFood[] instances = new TestFood[2]
             {
-                new TestFood{ Name="1"}, new TestFood{ Name="2"}
+                new TestFood(0, "123"), new TestFood(0, "123")
             };
 
             Machine machine = new Machine();
@@ -50,8 +51,8 @@ namespace MISIS.OOAD.UnitTests
             machine.Load(instances);
 
             //Assert
-            Assert.IsInstanceOfType(machine.Foods, typeof(List<Food>));
-            var instancesResult = machine.Foods as List<Food>;
+            Assert.IsInstanceOfType(machine.Foods, typeof(List<FoodBase>));
+            var instancesResult = machine.Foods as List<FoodBase>;
             Assert.AreEqual(2, instancesResult.Count);
         }
 

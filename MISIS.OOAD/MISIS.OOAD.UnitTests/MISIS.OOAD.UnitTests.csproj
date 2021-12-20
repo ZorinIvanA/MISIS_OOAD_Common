@@ -49,6 +49,8 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BuyWithCashTests.cs" />
+    <Compile Include="MoneyTests.cs" />
     <Compile Include="LoadFoodsTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestFood.cs" />
